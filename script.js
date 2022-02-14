@@ -17,6 +17,15 @@ function populateContainer16() {
 
 }
 
+function draw() {
+    let allSquares = document.querySelectorAll('.square');
+    allSquares.forEach((elem) => {
+        elem.addEventListener('mouseenter', function () {
+            this.style.backgroundColor = "black"
+        })
+    })
+}
+
 
 
 
@@ -39,3 +48,4 @@ function populateContainer16() {
 
 
 populateContainer16()
+draw()
