@@ -1,0 +1,17 @@
+.container{
+    width: 600px;
+    height:600px;
+    border-width: 10px;
+    border-style: outset;
+    border-color: #555;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.square{
+    background: rgb(202, 112, 112);
+    border: 1px solid #fff;
+
+
+}
